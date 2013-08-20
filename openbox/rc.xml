@@ -794,26 +794,17 @@
   # end of the example
 -->
     <!--Web-->
-    <application class="Chromium-browser">
+    <application class="Chromium">
       <desktop>1</desktop>
     </application>
     <!--Sistema-->
-    <application title="urxvt">
+    <application class="*xvt">
       <decor>no</decor>
       <position force="yes">
         <x>-1</x>
         <y>-29</y>
       </position>
-      <desktop>2</desktop>
-      <skip_taskbar>yes</skip_taskbar>
-    </application>
-    <application title="*htop*">
-      <decor>no</decor>
-      <position force="yes">
-        <x>-1</x>
-        <y>0</y>
-      </position>
-      <desktop>2</desktop>
+      <!--desktop>all</desktop-->
       <skip_taskbar>yes</skip_taskbar>
     </application>
     <!--Chévere-->
